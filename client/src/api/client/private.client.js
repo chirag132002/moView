@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "https://cineverse-backend.vercel.app/api/v1/";
+const baseURL = "https://mo-view-three.vercel.app/api/v1/";
 
 const privateClient = axios.create({
   baseURL,
